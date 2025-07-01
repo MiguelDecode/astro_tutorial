@@ -1,5 +1,11 @@
-<header class="mx-auto">
-  <a href="/">Inicio</a>
-  <a href="/about/">Sobre mi</a>
-  <a href="/blog/">Blog</a>
+---
+import Hamburger from "./Hamburger.astro";
+import Navigation from "./Navigation.astro";
+---
+
+<header>
+  <nav>
+    <Hamburger />
+    <Navigation />
+  </nav>
 </header>
